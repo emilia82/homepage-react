@@ -1,0 +1,46 @@
+.navigation {
+    text-align: center;
+    background-color: hsl(24, 94%, 50%);
+    padding: 5px 0;
+    border: 2px solid rgb(206, 206, 206);
+    transition: 0.4s;
+}
+.navigation:hover {
+    background-color: hsl(24, 94%, 60%);
+}
+
+.navigation:active {
+    background-color: hsl(24, 94%, 70%);
+}
+
+.navigation__list {
+    display: inline-flex;
+    padding-left: 20px;
+    list-style-position: inside;
+}
+
+.navigation_listItem {
+    padding: 10px;
+    list-style: none;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.navigation__link {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 200px;
+    padding: 5px 5px 5px 5px;
+    margin: 15px;
+}
+
+
+.navigation__link:hover {
+    color: #1b445f;
+    border-bottom: 2px outline none;
+}
+
+.navigation__link:active {
+    color: rgb(206, 206, 206);
+}
