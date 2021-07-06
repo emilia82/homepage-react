@@ -1,6 +1,4 @@
 
-import './App.css';
-
 function App() {
   return (
     <body className="body">
@@ -21,13 +19,13 @@ function App() {
         </ul>
     </nav>
     <p>
-        <button className="button js-hideHeaderButton">Ukryj nagłówek</button>
+        <button className="button">Ukryj nagłówek</button>
     </p>
     <p>
-        <button className="button js-changeBackgroundButton">Zmień kolor tła</button>
+        <button className="button">Zmień kolor tła</button>
     </p>
     <main>
-        <header className="header js-header">Witaj na mojej stronie, poznajmy się...</header>
+        <header className="header">Witaj na mojej stronie, poznajmy się...</header>
         <h2 className="sub__header">Tu napiszę jeszcze coś ciekawego, jak będzie wena.... proces twórczy to w końcu proces :D</h2>
         <section>
             <img className="section__image" src="https://i.postimg.cc/28PXb5rx/Emilia-Warakomska.jpg" alt="Emilia Warakomska"> </img>
@@ -75,6 +73,7 @@ function App() {
                promotion, blogowanie, tworzenie pięknych prezentacji, prostych grafik, info-produktów, copywriting, posiadam prawo jazdy kat.B.
                Porozumiewam się swobodnie po angielsku
             </p>
+            </section>
             <section>
                 <h2 id="ulubione-filmy" className="section__header">Ulubione filmy</h2>
                 <p className="section__paragraph">
