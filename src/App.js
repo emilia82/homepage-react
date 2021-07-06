@@ -1,34 +1,19 @@
+import Navigation from "./Navigation";
+import Buttons from "./Buttons";
+import Header from "./Header";
+
+
 
 function App() {
   return (
     <body className="body">
-    <nav className="navigation">
-        <ul className="navigation__list">
-            <li className="navigation_listItem">
-                <a className="navigation__link" href="#o-mnie">O Mnie</a>
-                
-            </li>
-            <li className="navigation_listItem">
-                <a className="navigation__link" href="#moje-sukcesy">Moje Sukcesy</a>
-               
-            </li>
-            <li className="navigation_listItem">
-                <a className="navigation__link" href="#ulubione-filmy">Ulubione filmy</a>
-                
-            </li>
-        </ul>
-    </nav>
-    <p>
-        <button className="button">Ukryj nagłówek</button>
-    </p>
-    <p>
-        <button className="button">Zmień kolor tła</button>
-    </p>
+    <Navigation />
+   <Buttons />
     <main>
-        <header className="header">Witaj na mojej stronie, poznajmy się...</header>
-        <h2 className="sub__header">Tu napiszę jeszcze coś ciekawego, jak będzie wena.... proces twórczy to w końcu proces :D</h2>
+       <Header title="Witaj na mojej stronie, poznajmy się..." />
+       <subHeader subTitle="Tu napiszę jeszcze coś ciekawego, jak będzie wena.... proces twórczy to w końcu proces :D" />
         <section>
-            <img className="section__image" src="https://i.postimg.cc/28PXb5rx/Emilia-Warakomska.jpg" alt="Emilia Warakomska"> </img>
+            <img className="section__image" src="https://i.postimg.cc/28PXb5rx/Emilia-Warakomska.jpg" alt="Emilia Warakomska"></img>
             <h2 id="o-mnie" className="section__header">O Mnie</h2>
             
             <p className="section__paragraph">
