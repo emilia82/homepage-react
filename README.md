@@ -7,7 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 [![Emilia-Warakomska.jpg](https://i.postimg.cc/28PXb5rx/Emilia-Warakomska.jpg)](https://postimg.cc/MvmYgqcc)
 
 ## Demo
-https://emilia82.github.io/homepage/
+https://github.com/emilia82/homepage-react
 
 ## Used Technologies:
 
