@@ -14,7 +14,7 @@ function App() {
    <Buttons />
     <main>
        <Header title="Witaj na mojej stronie, poznajmy się..." />
-       <subHeader subTitle="Tu napiszę jeszcze coś ciekawego, jak będzie wena.... proces twórczy to w końcu proces :D" />
+       <sub__header subTitle="Tu napiszę jeszcze coś ciekawego, jak będzie wena.... proces twórczy to w końcu proces :D" />
         <Section />
                 <Table />
         </main> 

@@ -5,9 +5,9 @@ const Header = ({ title, subTitle }) => (
     <header>
     <h1>{title}</h1>
       </header>
-  <subHeader>
+  <sub__header>
 <h2>{subTitle}</h2>
-  </subHeader>
+  </sub__header>
     </>
 );
 
