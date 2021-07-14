@@ -1,8 +1,8 @@
 import "./style.css";
 
 const Section = () => (
-    
-    <section>
+<>
+<section>
             <img className="section__image" src="https://i.postimg.cc/28PXb5rx/Emilia-Warakomska.jpg" alt="Emilia Warakomska"></img>
             <h2 id="o-mnie" className="section__header">O Mnie</h2>
             
@@ -17,8 +17,7 @@ const Section = () => (
                 <strong>
                     wg Wyroczni Delfickiej
                 </strong>
-                <q>Poznaj samego siebie - to klucz do sukcesu</q>
-                .
+                <q>Poznaj samego siebie - to klucz do sukcesu.</q>
                 
                 I chyba coś w tym jest.
             </p>
@@ -29,7 +28,7 @@ const Section = () => (
                To moja zarówno pasja, jak i obsesja. Bardzo lubię też social-media, i wszelkie możliwości, które one dają
             </p>
         </section>
-        </>
+        
         <section>
             <h2 id="moje-sukcesy" className="section__header">Moje sukcesy</h2>
             <p className="section__paragraph">
@@ -50,7 +49,7 @@ const Section = () => (
                Porozumiewam się swobodnie po angielsku
             </p>
             </section>
-            </>
+            
             <section>
                 <h2 id="ulubione-filmy" className="section__header">Ulubione filmy</h2>
                 <p className="section__paragraph">
@@ -64,6 +63,7 @@ const Section = () => (
                     </p>
                     
                  </section>
+</>
 );
 
 export default Section;
